@@ -1,0 +1,360 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 1.7em;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Open Sans', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+
+}
+
+.header{
+	width: 100%;
+	padding: 10px 0px;
+	background: url("../images/bg.png") center top no-repeat;
+	background-size: cover;
+	height: 100vh;
+
+
+
+}
+
+
+.header .navbar-expand-lg .navbar-nav .nav-link{
+	color: #cbccd2;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0px 0px 0px 15px;
+
+
+    
+}
+
+
+.header .navbar-brand{
+	margin: 0px 70px;
+}
+
+.banner{
+	padding: 120px 0px;
+	text-align: center;
+
+}
+
+
+.banner h3{
+	font-size: 35px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.banner p{
+	font-size: 14px;
+	color: #fff;
+}
+
+.banner .action-button .btn-primary{
+	padding: -10px 25px;
+	font-size: 12px;
+	text-transform: uppercase;
+	background: #e84545;
+	border: 1px solid #e84545;
+	color: #fff;
+	margin: 25px 0px 0px 0px;
+}
+
+.feature{
+	width: 100%;
+	padding: 80px 0px;
+	text-align: center;
+
+}
+
+.feature img{
+	width: 35px;
+}
+
+.feature h5{
+	font-size: 20px;
+	font-weight: 600;
+	
+}
+
+
+.feature p{
+	font-size: 12px;
+
+}
+
+.work{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/works.png") center top no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+.inner-feature{
+	width: 100%;
+	padding: 80px 0px;
+}
+
+.inner-feature h4{
+	margin: 35px 0px 0px 0px;
+
+}
+
+
+
+.inner-feature h6{
+	margin: 10px 0px 0px 0px;
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #e84545;
+}
+
+
+.inner-feature p{
+	font-size: 14px;
+	margin: 25px 0px 0px 0px;
+}
+
+.inner-feature .img-me{
+	margin: 40px 0px 0px 0px;
+}
+
+
+.easy{
+	width: 100%;
+	padding: 10px 0px;
+}
+
+.ready{
+	width: 100%;
+	padding: 50px 0px;
+	text-align: center;
+
+}
+
+.ready .action-button .btn-primary{
+	padding: 14px 40px;
+	font-size: 12px;
+	text-transform: uppercase;
+	background: #e84545;
+	border: 1px solid #e84545;
+	color: #fff;
+    margin: 35px 0px 0px 0px;
+    width: 20%;
+}
+
+
+
+
+.ready h4{
+	font-size: 26px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	margin: 20px 0px 0px 0px;
+}
+
+.ready h6{
+	font-size: 14px;
+	font-weight: 700;
+	margin: 10px 0px 0px 0px;
+}
+
+.icon{
+	width: 100%;
+	padding: 80px 0px;
+	background: #3a3e64;
+	text-align: center;
+}
+
+.icon h5{
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #fff;
+
+}
+
+.icon h6{
+	font-size: 13px;
+	color: #83859d;
+	margin: 10px 0px 0px 0px;
+}
+
+.icon img{
+	margin: 10px 0px 0px 0px;
+}
+
+
+.footer{
+	width: 100%;
+	padding: 30px 0px;
+	background: #313454;
+	text-align: center;
+}
+.footer p{
+	color: #808080;
+}
+
+
+
+/*css media query start*/
+
+/*****
+ * screen resulation : 279px to 319px
+ * Most of the folding mobile phone -- Galaxy Fold
+ * 
+ * 
+ * */
+
+@media (min-width: 279px) and (max-width:319px) {
+/*css start*/
+
+
+
+
+/*css end*/
+
+}
+
+
+
+
+/*****
+ * screen resulation : 320px to 480px
+ * Most of the mobile phones
+ * 
+ * 
+ * */
+
+@media (min-width: 320px) and (max-width:480px) {
+/*css start*/
+ .banner{
+ 	padding: 15px 0px;
+ }
+
+  .banner h3{
+  	font-size: 26px;
+  }
+
+  .banner p{
+  	font-size: 8px;
+  }
+  .banner .action-button .btn-primary{
+  	padding: 10px 0px;
+  }
+  
+  .feature{
+  	padding: 30px 0px;
+  }
+
+  .feature h5{
+  	font-size: 15px;
+  }
+
+   .feature p{
+  	font-size: 9px;
+  }
+
+  .inner-feature{
+  	padding: 30px 0px;
+  }
+
+   .inner-feature h4{
+   	margin: 17px 0px 0px 0px;
+  	font-size: 20px;
+  }
+
+  .inner-feature h6{
+  
+  	font-size: 10px;
+  }
+
+   .inner-feature p{
+  
+  	font-size: 10px;
+  	margin: 12px 0px 0px 0px;
+  }
+
+  .inner-feature .img-me{
+  	margin: 20px 0px 0px 0px;
+  }
+
+  .ready h4{
+  	font-size: 15px;
+  }
+   
+
+
+/*css end*/
+
+}
+
+
+
+
+/*****
+ * screen resulation : 481px to 767px
+ * Most of the mobile phones & Low Resulations Tab
+ * 
+ * 
+ * */
+
+@media (min-width: 481px) and (max-width:767px) {
+/*css start*/
+
+
+
+
+/*css end*/
+
+}
+
+
+
+/*****
+ * screen resulation : 768px to 1024px
+ * Most of the Tablets, Notebooks, ipads
+ * 
+ * 
+ * */
+
+@media (min-width: 768px) and (max-width:1024px) {
+/*css start*/
+
+
+
+
+/*css end*/
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
